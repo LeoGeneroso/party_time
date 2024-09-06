@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Open Bar",
+    "description": "All drinks served free of charge to your guests.",
+    "price": 2000,
+    "image": "https://images.unsplash.com/photo-1617752357354-e2fb98083392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80"
+  },
+  {
+    "name": "Security",
+    "description": "Complete security scheme for your party.",
+    "price": 2500,
+    "image": "https://images.unsplash.com/photo-1618371731836-2b9bff9ac72a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+  },
+  {
+    "name": "Toys",
+    "description": "Make your party more fun for the kids.",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1617035665220-38c21a88575a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+  },
+  {
+    "name": "DJ",
+    "description": "Liven up your party with electronic music!",
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Band",
+    "description": "Hire our band to choose the soundtrack.",
+    "price": 2750,
+    "image": "https://images.unsplash.com/photo-1521547418549-6a31aad7c177?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Buffet",
+    "description": "Full buffet, with several options for you to choose from.",
+    "price": 1850,
+    "image": "https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Waiters",
+    "description": "Waiters who serve both appetizers and drinks to guests.",
+    "price": 2100,
+    "image": "https://images.unsplash.com/photo-1516788875874-c5912cae7b43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+  },
+  {
+    "name": "Bartender",
+    "description": "Team with bartender to serve creative drinks to guests.",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1616781434243-b972f0c687b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Photographers",
+    "description": "Photographers who will record the best moments of your party.",
+    "price": 3000,
+    "image": "https://images.unsplash.com/photo-1552334823-ca7f70376914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Decoration",
+    "description": "Choose the decoration for your party, and we'll set it up.",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+  }
+]

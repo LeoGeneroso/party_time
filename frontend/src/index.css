@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    background-color: #f5f6fa;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+a {
+    color: #283252;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    color: #747990;
+}
+
+.btn,
+.btn-secondary {
+    background-color: #7703fc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+    display: block;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #283252;
+    border: 1px solid #cfcfcf;
+}

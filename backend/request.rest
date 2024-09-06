@@ -1,0 +1,108 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+  {
+    "name": "Decoration",
+    "description": "Choose the decoration for your party, and we'll set it up.",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+  }
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66d8b517eb285f0b428807dc
+
+###
+GET http://localhost:3000/api/services/66d8b517eb285f0b428807d4
+
+###
+DELETE http://localhost:3000/api/services/66d8be5ab6a516f0bd487a6e
+
+###
+PUT http://localhost:3000/api/services/66d8b517eb285f0b428807dc
+Content-Type: application/json
+
+{
+    "name": "Some service",
+    "description": "Some description changed",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Some Party",
+    "owner": "Leo",
+    "description": "Some description",
+    "budget": 10000,
+    "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Some Party 2",
+    "owner": "Leo",
+    "description": "Some description 2",
+    "budget": 1000,
+    "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "services": [
+        {
+            "name": "Some service",
+            "description": "Some description",
+            "price": 1400,
+            "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Some service 2",
+            "description": "Some description 2",
+            "price": 1400,
+            "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/66d8d66772b111ea52e3a555
+
+###
+GET http://localhost:3000/api/parties/66d8d66772b111ea52e3a554
+
+###
+DELETE http://localhost:3000/api/parties/66d8d9dd16ee3e0d1611fab6
+
+###
+PUT http://localhost:3000/api/parties/66d8d66772b111ea52e3a555
+Content-Type: application/json
+
+{
+    "title": "Some Party 3",
+    "owner": "Leo",
+    "description": "Some description 3",
+    "budget": 10000,
+    "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "services": [
+        {
+            "name": "Some service",
+            "description": "Some description",
+            "price": 1400,
+            "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Some service 2",
+            "description": "Some description 2",
+            "price": 1400,
+            "image": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
